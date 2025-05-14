@@ -8,7 +8,7 @@ import numpy as np
 from Image.image_link import image_dir
 
 # === CONFIGURATION ===
-st.set_page_config(page_title="Qualité de l'air à Yaoundé", layout="wide")
+st.set_page_config(page_title="🌡️ Qualité de l'air à Yaoundé | ISSEA-SEI", layout="wide")
 
 issea = Image.open(image_dir("logo_issea.png"))
 sei = Image.open(image_dir("sei_logo.jpg"))
