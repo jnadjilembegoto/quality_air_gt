@@ -105,7 +105,7 @@ col1, col2 = st.columns([2, 1])
 
 # Bloc principal
 with col1:
-    st.subheader("Prévisions horaires de l'AQI")
+    st.subheader("Prévisions horaires de la qualité de l'air")
     
     #df_transpose = data_horaire.set_index("Heure").T
     #styled_df = df_transpose.style.applymap(color_aqi_transposed)
