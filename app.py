@@ -57,8 +57,8 @@ with st.sidebar:
     
 
     st.markdown('---')
-    st.image(issea, caption="Institut Sous régional de Statistique et d'Economie Appliquée", use_column_width=True)
-    st.image(sei, caption="Stockholm Environment Institute", use_column_width=True)
+    st.image(issea, caption="Institut Sous régional de Statistique et d'Economie Appliquée", use_container_width=True)
+    st.image(sei, caption="Stockholm Environment Institute", use_container_width=True)
     st.markdown("---")                                                                                                  
 ####################
 if choice == "🏠 Accueil":
