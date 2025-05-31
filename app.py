@@ -5,7 +5,7 @@ from fonctions.accueil import load_accueil
 from fonctions.about import about_us_page
 from fonctions.viz import viz_load
 from fonctions.prev import prev_load
-#from fonctions.ChatAir import chat_load
+from fonctions.ChatAir import chat_load
 # === CONFIGURATION ===
 st.set_page_config(page_title="Qualité de l'air à Yaoundé", layout="wide")
 
@@ -69,7 +69,7 @@ elif choice == "🤖 Prévision":
     #st.markdown("Cette fonctionnalité est en cours de développement. Restez à l'écoute pour les mises à jour !")
     prev_load()
 elif choice == "🧑‍💻 Chat Air":
-    st.markdown("Cette fonctionnalité est en cours de développement. Restez à l'écoute pour les mises à jour !")
-    #chat_load()
+    #st.markdown("Cette fonctionnalité est en cours de développement. Restez à l'écoute pour les mises à jour !")
+    chat_load()
 else:
     about_us_page()
